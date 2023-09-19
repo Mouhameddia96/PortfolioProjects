@@ -17,7 +17,7 @@ WHERE started_at IS NOT NULL;
 
 -- Create the ended_date column 
 ALTER TABLE `myportfolio-398102.Divvy_Trips.Bikes`
-ADD COLUMN ended_date DATE;
+ADD COLUMN ended_date DATE
 
 -- Update the ended_date column with date value from ended_at
 UPDATE `myportfolio-398102.Divvy_Trips.Bikes`
